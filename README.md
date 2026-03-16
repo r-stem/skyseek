@@ -27,7 +27,7 @@ Skyseek has a hybrid convolutional-attention-MLP architecture designed to interp
 
 In the classification stage, this latent vector is concatenated with 12 redrock metadata values—including redshift, spectral type, and PCA coefficients—resulting in a 48-dimensional input for the classifier. This representation is passed through three shared fully connected layers before splitting into two distinct two-layer MLP heads that independently predict the likelihood of spectral type (S_WRONG) and redshift (Z_WRONG) errors.
 
-![Autoencoder+Classifier Architecture](images\32-architecture.svg)
+![Autoencoder+Classifier Architecture](https://raw.githubusercontent.com/r-stem/skyseek/main/images/32-architecture.svg)
 
 ## Training
 
