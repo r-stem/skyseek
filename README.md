@@ -6,14 +6,14 @@ A Deep Learning model for detecting anomalies in deep space cosmological observa
 
 1. **coadd_to_fits.py**: Extracts features from DESI datafiles into .fits files
 2. **fits_to_input.py**: Converts .fits files into .npz files for autoecndoer input
-3. **skyseek2_autoencoder.py**: Defines the layers of the autoencoeder
+3. **skyseek2_autoencoder.py**: Defines the layers of the autoencoder
 4. **skyseek2_train.py**: Trains the autoencoder, including defining architecture and paramaters
 5. **skyseek32_classifier.py**: Defines the layers of the classifier
 6. **skyseek32_train.py**: Loads the encoder and trains the classifier, including defining architecture and paramaters
 
 ## Introduction
 
-The Dark Energy Spectroctroscopic Instrument (DESI) is cosmological observation instrument installed at Kitt Peak National Observatory, Arizona.that observes galaxies and other distant cosmic objects in order to develop a 3D map of the universe. In May 2025, the [first major data release was published](https://data.desi.lbl.gov/doc/releases/dr1/), containing 18 million of those observations.
+The Dark Energy Spectroscopic Instrument (DESI) is cosmological observation instrument installed at Kitt Peak National Observatory, Arizona.that observes galaxies and other distant cosmic objects in order to develop a 3D map of the universe. In May 2025, the [first major data release was published](https://data.desi.lbl.gov/doc/releases/dr1/), containing 18 million of those observations.
 
 Manual analysis is untenable for so many objects. To that end, the DESI collaboration has developed an automatic algorithm called ‘redrock’ that uses PCA templates. Redrock is highly reliable (correctly classifying approximately 94% of objects), but struggles with rare and anomalous objects which its templates do not cover. Furthermore, an accuracy of 94% amounts to over a million errors across the dataset, which could hinder research and contaminate the 3D maps.
 
