@@ -53,3 +53,11 @@ Skyseek 3.2.2, if run on the DR1 dataset now, could be expected to detect 84.39%
 There are still avenues for potentially improving performance, such as data augmentation, using more of the DR1 dataset (only 22% was used due to disk-space requirements), and obtaining a VI set that focuses on the actual main-survey observations (thus avoiding mismatch with the current VI dataset, which tended to have longer exposures).
 
 Furthermore, the model will next be developed to identify rare and anomalous objects through the autoencoder reconstruction error and labelled datasets.
+
+## License and Citation
+The **source code** for Skyseek is licensed under the [MIT License](LICENSE). 
+
+The **text, architecture descriptions, and graphics** in this README are derived from the associated published paper and are distributed under the [CC BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/). 
+
+If you use this code or model in your research, please cite the paper:
+> Stemmons, R. A. (2026). Skyseek: A Deep Learning Model to detect pipeline errors in the DESI cosmological dataset. *Complex Adaptive Systems Conference*. Published by Elsevier B.V.
