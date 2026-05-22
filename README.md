@@ -1,6 +1,6 @@
 # Skyseek
 
-A Deep Learning model for detecting anomalies in deep space cosmological observations
+A Deep Learning model for detecting anomalies in deep space cosmological observations. Detects 84.4% of redshift errors with an F1 score of 0.75, and 62.3% of spectral type errors with an F1 score of 0.67.
 
 ## Files
 
